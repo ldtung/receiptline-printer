@@ -17,8 +17,8 @@ limitations under the License.
 // QR Code is a registered trademark of DENSO WAVE INCORPORATED.
 
 const receiptline = require('receiptline');
-const { PNG } = require('pngjs');
-
+//const { PNG } = require('pngjs');
+let PNG;
 // shortcut
 const $ = String.fromCharCode;
 // custom command object based on escpos

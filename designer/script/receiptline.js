@@ -26,7 +26,7 @@ limitations under the License.
     // Node.js
     if (typeof require !== 'undefined') {
         iconv = require('iconv-lite');
-        PNG = require('pngjs').PNG;
+        //PNG = require('pngjs').PNG;
         stream = require('stream');
         decoder = require('string_decoder');
         qrcode = require('./qrcode-generator/qrcode.js');

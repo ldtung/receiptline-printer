@@ -22,7 +22,7 @@ const fs = require('fs');
 const net = require('net');
 const receiptline = require('receiptline');
 const iconv = require('iconv-lite');
-const PNG = require('pngjs').PNG;
+let PNG;// = require('pngjs').PNG;
 const qrcode = require('./lib/qrcode-generator/qrcode.js');
 const servers = require('./servers.json');
 let puppeteer;
